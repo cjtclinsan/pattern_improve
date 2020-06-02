@@ -1,4 +1,4 @@
-package volatileAndCAS;
+package atomic;
 
 import java.util.ArrayList;
 import java.util.List;
