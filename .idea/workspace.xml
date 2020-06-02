@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bd9dc25-5a59-4b03-8f4f-832701e3a211" name="Default Changelist" comment="线程，锁常用了解">
-      <change afterPath="$PROJECT_DIR$/src/test/java/atomic/AtomicVsSyncVsLongAddr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cas/ReentrantLock_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cas/ReentrantLock_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cas/ReentrantLock_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cas/ReentrantLock_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cas/ReentrantLock_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6bd9dc25-5a59-4b03-8f4f-832701e3a211" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/volatileAndCAS/AtomicInteger_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/atomic/AtomicInteger_1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -165,7 +156,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="5" />
     <option name="y" value="7" />
     <option name="width" value="1450" />
@@ -215,7 +206,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591104053811" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591104204449" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../teach_h5" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -332,7 +323,7 @@
       <updated>1582772792204</updated>
       <workItem from="1582772793766" duration="6063000" />
       <workItem from="1590677650195" duration="6058000" />
-      <workItem from="1590850278953" duration="21927000" />
+      <workItem from="1590850278953" duration="22247000" />
     </task>
     <task id="LOCAL-00001" summary="线程，锁常用了解">
       <created>1590683707541</created>
@@ -362,16 +353,23 @@
       <option name="project" value="LOCAL" />
       <updated>1591095428890</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="线程，锁常用了解">
+      <created>1591104072273</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591104072273</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34048000" />
+    <option name="totallyTimeSpent" value="34368000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21529175" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21529175" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -380,7 +378,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3555241" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3555241" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
