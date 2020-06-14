@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bd9dc25-5a59-4b03-8f4f-832701e3a211" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/linkedlist/LinkedListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/queue/ArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/queue/LinkedQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/queue/LoopArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stack/ArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stack/LinkedStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -216,7 +210,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592069633211" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592070145134" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../yilaiye-manager" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -340,7 +334,7 @@
       <workItem from="1591675516157" duration="3465000" />
       <workItem from="1591751493716" duration="945000" />
       <workItem from="1591924408724" duration="10454000" />
-      <workItem from="1592055261804" duration="7921000" />
+      <workItem from="1592055261804" duration="7958000" />
     </task>
     <task id="LOCAL-00001" summary="线程，锁常用了解">
       <created>1590683707541</created>
@@ -405,14 +399,22 @@
       <option name="project" value="LOCAL" />
       <updated>1591943859125</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="单链表实现简易LRU算法">
+      <created>1592070134093</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1592070134094</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91351000" />
+    <option name="totallyTimeSpent" value="91388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="355" y="1" width="1088" height="834" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23226434" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
