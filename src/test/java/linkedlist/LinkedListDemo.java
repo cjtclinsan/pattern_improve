@@ -38,7 +38,7 @@ public class LinkedListDemo {
     }
 
     /**
-     * 检车环
+     * 检测环
      * @param list
      */
     public static boolean checkCircle(Node list){
@@ -59,6 +59,102 @@ public class LinkedListDemo {
 
         return false;
     }
+
+    public class ListNode{
+        int val;
+        ListNode next;
+        ListNode(int x){
+            val = x;
+        }
+    }
+
+    /**
+     * 有序链表合并
+     */
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2){
+        //利用哨兵简化难度
+        ListNode solider = new ListNode(0);
+        ListNode p = solider;
+
+        while (l1 != null && l2 != null){
+            if( l1.val < l2.val ){
+                p.next = l1;
+                l1 = l1.next;
+            }else {
+                p.next = l2;
+                l2 = l2.next;
+            }
+            p = p.next;
+        }
+
+        if( l1.next != null ){
+            p.next = l1;
+        }
+        if( l2.next != null ){
+            p.next = l2;
+        }
+
+        return solider.next;
+    }
+
+    /**
+     * 删除倒数第K个节点
+     * @param list
+     * @param k
+     */
+    public static Node deleteLastKth(Node list, int k){
+        Node fast = list;
+        int i = 1;
+        //fast先往前走k步
+        while (fast != null && i < k){
+            fast = fast.next;
+            ++i;
+        }
+
+        if( fast == null ){
+            return list;
+        }
+
+        //slow与fast同时往前走，当fast到头时，slow在倒数第k个
+        Node slow = list;
+        Node prev = null;
+        while (fast.next != null){
+            fast = fast.next;
+            prev = slow;
+            slow = slow.next;
+        }
+
+        //list长度为k
+        if( prev == null ){
+            list = list.next;
+        }else {
+            //删除
+            prev.next = prev.next.next;
+        }
+
+        return list;
+    }
+
+    /**
+     * 求中间节点
+     * @param list
+     */
+    public static Node findNiddleNode(Node list){
+        if( list == null ){
+            return null;
+        }
+
+        Node fast = list;
+        Node slow = list;
+
+        while (fast != null && slow != null){
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+
+        return slow;
+    }
+
 
     public static void printAll(Node list){
         Node p = list;

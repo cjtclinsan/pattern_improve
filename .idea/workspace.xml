@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6bd9dc25-5a59-4b03-8f4f-832701e3a211" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/linkedlist/LinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/linkedlist/LinkedListDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,47 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stack/ArrayStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stack/LinkedStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" selection-start-line="6" selection-end-line="50" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/queue/ArrayQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="752">
-              <caret line="47" column="5" selection-start-line="31" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/queue/LinkedQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="784">
-              <caret line="49" column="1" selection-start-line="6" selection-end-line="49" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/queue/LoopArrayQueue.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/linkedlist/LinkedListDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+            <state relative-caret-position="426">
+              <caret line="167" column="44" lean-forward="true" selection-start-line="167" selection-start-column="44" selection-end-line="167" selection-end-column="44" />
+              <folding>
+                <element signature="e#1321#1322#0" expanded="true" />
+                <element signature="e#1352#1353#0" expanded="true" />
+                <element signature="e#3353#3354#0" expanded="true" />
+                <element signature="e#3322#3323#0" expanded="true" />
+                <element signature="e#3362#3363#0" expanded="true" />
+                <element signature="e#3394#3395#0" expanded="true" />
+                <element signature="e#3429#3430#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,12 +100,12 @@
         <option value="$PROJECT_DIR$/src/test/java/secondStageSummary/MyContainer_1.java" />
         <option value="$PROJECT_DIR$/src/test/java/secondStageSummary/MyContainer_2.java" />
         <option value="$PROJECT_DIR$/src/test/java/linkedlist/LRUBaseLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/test/java/linkedlist/LinkedListDemo.java" />
         <option value="$PROJECT_DIR$/src/test/java/stack/ArrayStack.java" />
         <option value="$PROJECT_DIR$/src/test/java/stack/LinkedStack.java" />
         <option value="$PROJECT_DIR$/src/test/java/queue/ArrayQueue.java" />
         <option value="$PROJECT_DIR$/src/test/java/queue/LinkedQueue.java" />
         <option value="$PROJECT_DIR$/src/test/java/queue/LoopArrayQueue.java" />
+        <option value="$PROJECT_DIR$/src/test/java/linkedlist/LinkedListDemo.java" />
       </list>
     </option>
   </component>
@@ -144,9 +118,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="236" />
-    <option name="y" value="35" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="746" />
+    <option name="y" value="15" />
     <option name="width" value="1325" />
     <option name="height" value="1020" />
   </component>
@@ -191,6 +165,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern_improve" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern_improve" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="queue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -202,7 +184,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592129004666" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592235606897" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../yilaiye-manager" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -327,7 +309,10 @@
       <workItem from="1591751493716" duration="945000" />
       <workItem from="1591924408724" duration="10454000" />
       <workItem from="1592055261804" duration="7974000" />
-      <workItem from="1592183012555" duration="1259000" />
+      <workItem from="1592183012555" duration="2689000" />
+      <workItem from="1592219295829" duration="598000" />
+      <workItem from="1592223081519" duration="569000" />
+      <workItem from="1592231128854" duration="2310000" />
     </task>
     <task id="LOCAL-00001" summary="线程，锁常用了解">
       <created>1590683707541</created>
@@ -406,17 +391,24 @@
       <option name="project" value="LOCAL" />
       <updated>1592129010076</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="单链表实现简易LRU算法">
+      <created>1592212510462</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1592212510462</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92663000" />
+    <option name="totallyTimeSpent" value="97570000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="728" y="14" width="1060" height="816" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16364856" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -450,7 +442,7 @@
       <window_info anchor="right" id="Key Promoter X" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22740525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -459,7 +451,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38857144" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38746437" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -878,20 +870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/linkedlist/LRUBaseLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="86" column="44" selection-start-line="86" selection-start-column="44" selection-end-line="86" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/linkedlist/LinkedListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stack/ArrayStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -913,17 +891,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/queue/LoopArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/queue/LinkedQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
+        <state relative-caret-position="778">
           <caret line="49" column="1" selection-start-line="6" selection-end-line="49" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/queue/LoopArrayQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/linkedlist/LRUBaseLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        <state relative-caret-position="1264">
+          <caret line="86" column="44" selection-start-line="86" selection-start-column="44" selection-end-line="86" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/linkedlist/LinkedListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="167" column="44" lean-forward="true" selection-start-line="167" selection-start-column="44" selection-end-line="167" selection-end-column="44" />
+          <folding>
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1352#1353#0" expanded="true" />
+            <element signature="e#3353#3354#0" expanded="true" />
+            <element signature="e#3322#3323#0" expanded="true" />
+            <element signature="e#3362#3363#0" expanded="true" />
+            <element signature="e#3394#3395#0" expanded="true" />
+            <element signature="e#3429#3430#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
