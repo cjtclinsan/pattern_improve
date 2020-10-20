@@ -1,7 +1,5 @@
 package volatileAndCAS;
 
-import org.omg.CORBA.TIMEOUT;
-
 import java.util.concurrent.TimeUnit;
 
 /**
