@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bd9dc25-5a59-4b03-8f4f-832701e3a211" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/reference/PhantomReference_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/reference/WeakReference_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/suanfa/decorator/demo3/JsonLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/suanfa/decorator/demo3/LoggerDecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/volatileAndCAS/HelloVolatile_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/volatileAndCAS/HelloVolatile_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/suanfa/decorator/demo3/JsonLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/suanfa/decorator/demo3/LoggerDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/pattern_improve.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/volatileAndCAS/HelloVolatile_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/volatileAndCAS/HelloVolatile_1.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,11 +19,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/reference/SoftReference_2.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/reference/WeakReference_1.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/ThreadLocal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="484" column="9" lean-forward="true" selection-start-line="453" selection-start-column="8" selection-end-line="484" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/reference/PhantomReference_1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,8 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/firstStageSummary/CountDownLatch_1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/firstStageSummary/CountDownLatch_2.java" />
         <option value="$PROJECT_DIR$/src/test/java/firstStageSummary/LockSupport_1.java" />
         <option value="$PROJECT_DIR$/src/test/java/firstStageSummary/Semaphore_1.java" />
         <option value="$PROJECT_DIR$/src/test/java/secondStageSummary/MyContainer_1.java" />
@@ -108,6 +130,8 @@
         <option value="$PROJECT_DIR$/src/test/java/reference/NormalReference_1.java" />
         <option value="$PROJECT_DIR$/src/test/java/AQS/HelloVarHandle_1.java" />
         <option value="$PROJECT_DIR$/src/test/java/reference/SoftReference_2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/reference/WeakReference_1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/reference/PhantomReference_1.java" />
       </list>
     </option>
   </component>
@@ -133,6 +157,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -194,13 +219,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602845444694" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603204769236" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../yilaiye-manager" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -232,13 +256,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SoftReference_2">
-    <configuration name="HelloVarHandle_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AQS.HelloVarHandle_1" />
+  <component name="RunManager" selected="Application.PhantomReference_1">
+    <configuration name="NormalReference_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reference.NormalReference_1" />
       <module name="pattern_improve" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AQS.*" />
+          <option name="PATTERN" value="reference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,8 +270,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NormalReference_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reference.NormalReference_1" />
+    <configuration name="PhantomReference_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reference.PhantomReference_1" />
       <module name="pattern_improve" />
       <extension name="coverage">
         <pattern>
@@ -273,19 +297,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocal_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AQS.ThreadLocal_1" />
-      <module name="pattern_improve" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AQS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ThreadLocal_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AQS.ThreadLocal_2" />
       <module name="pattern_improve" />
@@ -299,20 +310,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WeakReference_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reference.WeakReference_1" />
+      <module name="pattern_improve" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reference.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.HelloVarHandle_1" />
       <item itemvalue="Application.NormalReference_1" />
       <item itemvalue="Application.SoftReference_2" />
-      <item itemvalue="Application.ThreadLocal_1" />
       <item itemvalue="Application.ThreadLocal_2" />
+      <item itemvalue="Application.WeakReference_1" />
+      <item itemvalue="Application.PhantomReference_1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PhantomReference_1" />
+        <item itemvalue="Application.WeakReference_1" />
         <item itemvalue="Application.SoftReference_2" />
         <item itemvalue="Application.NormalReference_1" />
         <item itemvalue="Application.ThreadLocal_2" />
-        <item itemvalue="Application.ThreadLocal_1" />
-        <item itemvalue="Application.HelloVarHandle_1" />
       </list>
     </recent_temporary>
   </component>
@@ -352,6 +376,7 @@
       <workItem from="1593659527219" duration="91000" />
       <workItem from="1602731149248" duration="657000" />
       <workItem from="1602745464739" duration="14427000" />
+      <workItem from="1603188524626" duration="3257000" />
     </task>
     <task id="LOCAL-00001" summary="线程，锁常用了解">
       <created>1590683707541</created>
@@ -479,17 +504,23 @@
       <option name="project" value="LOCAL" />
       <updated>1593628003160</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="桶，计数，基数-位排序   跳表排序">
+      <created>1603188542260</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1603188542260</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174168000" />
+    <option name="totallyTimeSpent" value="177425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2266935" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23004694" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -498,7 +529,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2776204" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2776204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -574,27 +605,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="桶，计数，基数-位排序   跳表排序" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/search/BSearch6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/search/BSearch4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/search/BSearch7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sort/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -894,20 +904,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/suanfa/decorator/demo3/JsonLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/suanfa/decorator/demo3/LoggerDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/suanfa/decorator/demo3/JsonLogger.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/suanfa/decorator/demo3/LoggerDecorator.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/volatileAndCAS/HelloVolatile_1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -977,8 +975,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/reference/SoftReference_2.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/reference/WeakReference_1.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="484" column="9" lean-forward="true" selection-start-line="453" selection-start-column="8" selection-end-line="484" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/reference/PhantomReference_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
