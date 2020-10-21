@@ -34,7 +34,7 @@ public class PhantomReference_1 {
         new Thread(()->{
             while (true) {
                 Reference<? extends M> poll = queue.poll();
-                if( poll == null ){
+                if( poll != null ){
                     System.out.println("---虚引用对象被 JVM 回收了---" + poll);
                 }
 
