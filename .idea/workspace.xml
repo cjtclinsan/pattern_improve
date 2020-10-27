@@ -7,7 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bd9dc25-5a59-4b03-8f4f-832701e3a211" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/threadpool/TransferQueue_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/threadpool/CompletableFuture_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/threadpool/Future_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,24 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/list/TransferQueue_1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="32" column="1" selection-start-line="8" selection-end-line="32" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/threadpool/LockSupport_1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" selection-start-line="8" selection-end-line="34" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/threadpool/SyncWaitNotify.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/threadpool/PipedStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
+            <state relative-caret-position="896">
               <caret line="58" column="1" selection-start-line="10" selection-end-line="58" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -118,11 +101,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/threadpool/TransferQueue_1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="423">
-              <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/threadpool/Future_1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="10" selection-start-line="10" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/threadpool/CompletableFuture_1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,8 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/algorithm/queue/ArrayQueue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/algorithm/queue/CircularQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/queue/DynamicArrayQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/queue/QueueBasedOnLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithm/sort/InsertionSortAdd.java" />
@@ -205,6 +210,8 @@
         <option value="$PROJECT_DIR$/src/test/java/threadpool/BlockingQueue_1.java" />
         <option value="$PROJECT_DIR$/src/test/java/threadpool/PipedStream.java" />
         <option value="$PROJECT_DIR$/src/test/java/threadpool/TransferQueue_1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/threadpool/Future_1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/threadpool/CompletableFuture_1.java" />
       </list>
     </option>
   </component>
@@ -231,7 +238,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -275,12 +281,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603684180583" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603808373587" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../yilaiye-manager" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -315,7 +322,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TransferQueue_1">
+  <component name="RunManager" selected="Application.CompletableFuture_1">
     <configuration name="BlockingQueue_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="threadpool.BlockingQueue_1" />
       <module name="pattern_improve" />
@@ -329,8 +336,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cas_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadpool.Cas_1" />
+    <configuration name="CompletableFuture_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadpool.CompletableFuture_1" />
       <module name="pattern_improve" />
       <extension name="coverage">
         <pattern>
@@ -342,8 +349,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockCondition_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadpool.LockCondition_2" />
+    <configuration name="Future_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadpool.Future_1" />
       <module name="pattern_improve" />
       <extension name="coverage">
         <pattern>
@@ -382,19 +389,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LockCondition_2" />
-      <item itemvalue="Application.Cas_1" />
       <item itemvalue="Application.BlockingQueue_1" />
       <item itemvalue="Application.PipedStream" />
       <item itemvalue="Application.TransferQueue_1" />
+      <item itemvalue="Application.Future_1" />
+      <item itemvalue="Application.CompletableFuture_1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompletableFuture_1" />
+        <item itemvalue="Application.Future_1" />
         <item itemvalue="Application.TransferQueue_1" />
         <item itemvalue="Application.PipedStream" />
         <item itemvalue="Application.BlockingQueue_1" />
-        <item itemvalue="Application.Cas_1" />
-        <item itemvalue="Application.LockCondition_2" />
       </list>
     </recent_temporary>
   </component>
@@ -438,7 +445,8 @@
       <workItem from="1603260223942" duration="10948000" />
       <workItem from="1603333975172" duration="6757000" />
       <workItem from="1603416597863" duration="9161000" />
-      <workItem from="1603529767591" duration="2063000" />
+      <workItem from="1603529767591" duration="2080000" />
+      <workItem from="1603805386655" duration="2461000" />
     </task>
     <task id="LOCAL-00001" summary="线程，锁常用了解">
       <created>1590683707541</created>
@@ -601,16 +609,23 @@
       <option name="project" value="LOCAL" />
       <updated>1603451278609</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="桶，计数，基数-位排序   跳表排序">
+      <created>1603684268180</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1603684268180</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206386000" />
+    <option name="totallyTimeSpent" value="208864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24346076" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24681422" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -696,23 +711,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="桶，计数，基数-位排序   跳表排序" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/thread/VolatileDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/volatileAndCAS/volatile的作用">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cas/ReentrantLock_5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cas/ReentrantLock_6.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -1100,7 +1098,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/threadpool/PipedStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
+        <state relative-caret-position="896">
           <caret line="58" column="1" selection-start-line="10" selection-end-line="58" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1111,7 +1109,34 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/threadpool/TransferQueue_1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
-          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/Callable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/threadpool/Future_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" selection-start-line="10" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/threadpool/CompletableFuture_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
