@@ -41,6 +41,24 @@
           <artifactId>fastjson</artifactId>
           <version>1.2.44</version>
       </dependency>
+
+      <!--jmh 依赖-->
+      <dependency>
+          <groupId>org.openjdk.jmh</groupId>
+          <artifactId>jmh-core</artifactId>
+          <version>1.21</version>
+      </dependency>
+      <dependency>
+          <groupId>org.openjdk.jmh</groupId>
+          <artifactId>jmh-generator-annprocess</artifactId>
+          <version>1.21</version>
+      </dependency>
+      <dependency>
+          <groupId>com.lmax</groupId>
+          <artifactId>disruptor</artifactId>
+          <version>3.4.1</version>
+          <scope>test</scope>
+      </dependency>
   </dependencies>
 
   <build>
