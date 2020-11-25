@@ -5,7 +5,10 @@ package jvm.clazz;
  * @date 2020/11/18
  */
 public class Hello {
-    public void m(){
-        System.out.println("hello.m()");
+    public int m( int i){
+        if( i == 1 ){
+            return 1;
+        }
+        return i * m(i-1);
     }
 }

@@ -43,7 +43,7 @@ public class TcClassLoader extends ClassLoader {
         System.out.println(clazz == clazz1);
 
         Hello h = (Hello) clazz.newInstance();
-        h.m();
+        h.m(1);
 
         // AppClassLoader
         System.out.println(loader.getClass().getClassLoader());

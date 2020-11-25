@@ -44,7 +44,7 @@ public class TcClassLoaderEncription extends ClassLoader {
         Class clazz = loader.loadClass("jvm.clazz.Hello");
 
         Hello h = (Hello) clazz.newInstance();
-        h.m();
+        h.m(1);
 
         // AppClassLoader
         System.out.println(loader.getClass().getClassLoader());
